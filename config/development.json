@@ -1,0 +1,35 @@
+{
+  "HOST": "http://localhost:3001"
+, "PORT": 3001
+
+, "HOSTS": {
+    "USERS": "http://localhost:3000"
+  , "ROLES": "http://localhost:3000"
+  , "MEMBERS": "http://localhost:3000"
+  , "ACCOUNTS": "http://localhost:3000"
+  }
+
+, "LOGGING": {
+    "STACK": true
+  }
+
+, "PROVIDER": {
+    "EMAIL": "null"
+  }
+
+, "TWITTER": {
+    "ID": "XHacDOM0P1j1alg0fNy4yIBYj"
+  , "SECRET": "FiWmbJZ4i943y17zDtdNLLFjSbH9pVtHhhHGo7kTELcyznlU2N"
+  }
+
+, "RETHINKDB": {
+    "HOST": "localhost"
+  , "PORT": 28015
+  , "DATABASE": "ftbl"
+  }
+  
+, "REDIS": {
+    "HOST": "localhost"
+  , "PORT": 6379
+  }
+}

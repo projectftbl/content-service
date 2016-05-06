@@ -1,0 +1,73 @@
+{
+  "FACEBOOK": {
+    "SCOPE": [ "email", "public_profile", "user_friends", "manage_pages" ]
+  }
+
+, "HTTP": {
+    "CORS": { "Access-Control-Allow-Credentials": true, "origin": "*" }
+
+  , "AUTHENTICATE": [ 
+      "ftbl/ftbl/guest"
+    , "system/system/system"
+    , "signup/signup/guest" 
+    ]
+  }
+
+, "ROLES": [
+    { "name": "Guest", "handle": "guest", "claims": [ 
+        { "entity": "member", "right": 1 } 
+      , { "entity": "user", "right": 1 } 
+      ] 
+    }
+  , { "name": "System", "handle": "system", "claims": [ 
+        { "entity": "member", "right": 15 } 
+      , { "entity": "user", "right": 15 } 
+      , { "entity": "system", "right": 15 } 
+      ]
+    }
+  , { "name": "Support", "handle": "support", "claims": [ 
+        { "entity": "member", "right": 15 } 
+      , { "entity": "user", "right": 15 } 
+      ]
+    }
+  ]
+
+, "REFERRERS": [ "snack", "spain", "freestyle", "spencer" ]
+
+, "TOKEN": {
+    "SECRET": "ftbl"
+  }
+
+, "CACHE": {
+    "TTL": 120
+  }
+
+, "LOGGING": {
+    "LEVEL": "verbose"
+  }
+
+, "MANDRILL": {
+    "ID": ""
+  , "SUBACCOUNT": ""
+  }
+
+, "SENDGRID": {
+    "KEY": "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"
+  }
+
+, "EMAIL": {
+    "FROM": "sarah.groarke@projectftbl.com"
+  , "NAME": "Project FTBL"
+  }
+
+, "TWILIO": {
+    "ID": ""
+  , "TOKEN": ""
+  , "NUMBER": ""
+  }
+
+, "STATS": {
+    "KEY": "cnfvbvfcm3bugp38awq8nyha"
+  , "SECRET": "MUkq8t2CEv"
+  }
+}
