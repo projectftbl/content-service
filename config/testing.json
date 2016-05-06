@@ -1,5 +1,12 @@
 {
-  "HOST": "http://testing.api.liveforfootball.com"
+  "HOST": "http://testing.content.api.liveforfootball.com"
+
+, "HOSTS": {
+    "USERS": "http://testing.api.liveforfootball.com"
+  , "ROLES": "http://testing.api.liveforfootball.com"
+  , "MEMBERS": "http://testing.api.liveforfootball.com"
+  , "ACCOUNTS": "http://testing.api.liveforfootball.com"
+  }
 
 , "HTTP": {
     "SECURE": false
