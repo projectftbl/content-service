@@ -18,7 +18,7 @@
     "url": "git@github.com:projectftbl/content-service.git"
   },
   "dependencies": {
-    "@ftbl/aggregation-service": "^1.1.0",
+    "@ftbl/aggregation-service": "^1.1.1",
     "@ftbl/app": "^1.1.5",
     "@ftbl/bootstrap": "^1.0.0",
     "@ftbl/bus": "^1.0.7",
