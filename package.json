@@ -1,6 +1,6 @@
 {
   "name": "@ftbl/content-service",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Content service container",
   "main": "node index",
   "scripts": {
