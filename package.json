@@ -18,7 +18,7 @@
     "url": "git@github.com:projectftbl/content-service.git"
   },
   "dependencies": {
-    "@ftbl/aggregation-service": "^1.1.7",
+    "@ftbl/aggregation-service": "^1.1.8",
     "@ftbl/app": "^1.1.5",
     "@ftbl/bootstrap": "^1.0.3",
     "@ftbl/bus": "^1.0.7",
@@ -32,7 +32,7 @@
     "@ftbl/scheduler": "^1.0.3",
     "@ftbl/server": "^1.3.28",
     "@ftbl/socket": "^1.1.2",
-    "@ftbl/store": "^1.2.16",
+    "@ftbl/store": "^1.2.17",
     "@ftbl/task": "^1.1.4",
     "@ftbl/timeline-service": "^1.0.1",
     "@ftbl/utility": "^1.0.2",
